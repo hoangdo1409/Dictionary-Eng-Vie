@@ -1,0 +1,42 @@
+
+.scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color:transparent;
+}
+
+.scroll-bar:horizontal .thumb, .scroll-bar:vertical .thumb {
+    -fx-background-color:  #234a56;
+    -fx-background-radius: 5em;
+}
+
+.list-cell {
+    -fx-background-color: #c1dee2;
+    -fx-font-size: 16;
+    -fx-background-radius: 1em;
+}
+
+.list-cell:selected:focused, .list-cell:selected {
+    -fx-background-color: #89b9c5;
+    -fx-text-fill: black;
+}
+
+.list-cell:hover {
+    -fx-background-color: #89b9c5;
+}
+
+.button1 {
+	-fx-background-color : #234a56;
+}
+
+.button1:hover {
+	-fx-background-color : #234f7c;
+}
+
+.button2 {
+	-fx-background-color : #c1dde2;
+}
+
+.button2:hover {
+	-fx-background-color : #c1eee2;
+}
+
+
